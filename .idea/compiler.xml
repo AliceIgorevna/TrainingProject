@@ -39,7 +39,7 @@
       <module name="customCollectionModule" target="1.5" />
       <module name="customEqualsModule" target="1.5" />
       <module name="genericsModule" target="1.5" />
-      <module name="immutableModule" target="1.5" />
+      <module name="immutableModule" target="1.7" />
       <module name="innerClassesModule" target="1.5" />
       <module name="java8Module" target="1.5" />
       <module name="overrideModule" target="1.5" />

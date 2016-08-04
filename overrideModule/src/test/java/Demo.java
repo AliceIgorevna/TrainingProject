@@ -14,5 +14,6 @@ public class Demo {
         basePage.doSomething();
         basePage.doSomethingBaseRealization();
 
+        loginPage.doSomething("parameter ");
     }
 }
