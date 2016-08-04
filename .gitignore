@@ -1,0 +1,12 @@
+**/target
+**/test-output
+/report
+
+# ignore Intellij IDEA files
+*.iml
+/.idea/
+
+# ignore trash
+**/*log*.txt
+.metadata
+.recommenders
