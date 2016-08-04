@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Reminding.iml" filepath="$PROJECT_DIR$/Reminding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/constructorsBlocksModule/constructorsBlocksModule.iml" filepath="$PROJECT_DIR$/constructorsBlocksModule/constructorsBlocksModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customCollectionModule/customCollectionModule.iml" filepath="$PROJECT_DIR$/customCollectionModule/customCollectionModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customEqualsModule/customEqualsModule.iml" filepath="$PROJECT_DIR$/customEqualsModule/customEqualsModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/genericsModule/genericsModule.iml" filepath="$PROJECT_DIR$/genericsModule/genericsModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/immutableModule/immutableModule.iml" filepath="$PROJECT_DIR$/immutableModule/immutableModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/innerClassesModule/innerClassesModule.iml" filepath="$PROJECT_DIR$/innerClassesModule/innerClassesModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java8Module/java8Module.iml" filepath="$PROJECT_DIR$/java8Module/java8Module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/overrideModule/overrideModule.iml" filepath="$PROJECT_DIR$/overrideModule/overrideModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patternsModule/patternsModule.iml" filepath="$PROJECT_DIR$/patternsModule/patternsModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serenityModule/serenityModule.iml" filepath="$PROJECT_DIR$/serenityModule/serenityModule.iml" />
+    </modules>
+  </component>
+</project>
