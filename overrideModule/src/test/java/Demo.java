@@ -3,6 +3,7 @@
  */
 public class Demo {
     public static void main(String[] args) {
+
         LoginPage loginPage = new LoginPage();
         loginPage.doSomething();
         BasePage basePage = new BasePage() {
@@ -12,7 +13,11 @@ public class Demo {
             }
         };
         basePage.doSomething();
-        basePage.doSomethingBaseRealization();
+        try {
+            basePage.doSomethingBaseRealization();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         loginPage.doSomething("parameter ");
     }

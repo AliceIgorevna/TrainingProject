@@ -5,10 +5,11 @@
 public abstract class BasePage {
     public abstract void doSomething();
 
-    public static void doStaticSomething(){
+    public static void doStaticSomething() {
         System.out.println("Base page static doStaticSomething()");
     }
-    protected Object doSomethingBaseRealization() throws Exception{
+
+    protected Object doSomethingBaseRealization() throws Exception {
         System.out.println("Base page realization of doSomethingBaseRealization()");
         return 1;
     }
