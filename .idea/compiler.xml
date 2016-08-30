@@ -26,12 +26,24 @@
         <module name="customCollectionModule" />
         <module name="customEqualsModule" />
         <module name="genericsModule" />
-        <module name="immutableModule" />
         <module name="innerClassesModule" />
-        <module name="java8Module" />
         <module name="overrideModule" />
         <module name="patternsModule" />
         <module name="serenityModule" />
+      </profile>
+      <profile default="false" name="Annotation profile for immutableModule" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="immutableModule" />
+      </profile>
+      <profile default="false" name="Annotation profile for java8Module" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="java8Module" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,7 +53,7 @@
       <module name="genericsModule" target="1.5" />
       <module name="immutableModule" target="1.7" />
       <module name="innerClassesModule" target="1.5" />
-      <module name="java8Module" target="1.5" />
+      <module name="java8Module" target="1.8" />
       <module name="overrideModule" target="1.5" />
       <module name="patternsModule" target="1.5" />
       <module name="Reminding" target="1.5" />

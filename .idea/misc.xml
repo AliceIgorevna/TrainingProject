@@ -38,6 +38,19 @@
       <property name="caretWidth" class="java.lang.Integer" />
     </properties>
   </component>
+  <component name="EclipseCodeFormatter">
+    <option name="defaultSettings" value="true" />
+    <option name="eclipseVersion" value="CUSTOM" />
+    <option name="formatOtherFileTypesWithIntelliJ" value="false" />
+    <option name="formatter" value="ECLIPSE" />
+    <option name="id" value="1470927407188" />
+    <option name="importOrderConfigFilePath" value="D:/ctco-ecom/ide-settings/IDEA/idea_formatter.importorder" />
+    <option name="importOrderFromFile" value="true" />
+    <option name="name" value="default" />
+    <option name="pathToConfigFileJava" value="D:/ctco-ecom/ide-settings/eclipse/formatter.xml" />
+    <option name="pathToEclipse" value="D:/ctco-ecom/ide-settings/eclipse/formatter.xml" />
+    <option name="selectedJavaProfile" value="My" />
+  </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
