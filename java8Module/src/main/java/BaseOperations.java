@@ -6,8 +6,10 @@ import org.openqa.selenium.WebElement;
  * Created by Alisa_Demennikova on 8/30/2016.
  */
 public interface BaseOperations {
-    default void clickBueButton(WebDriver driver, By elementXpath){
-       driver.findElement(elementXpath).click();
+
+    default void clickByeButton(WebDriver driver, String xpathExpression){
+       driver.findElement(By.xpath(xpathExpression)).click();
     }
+
     void openPage();
 }

@@ -1,4 +1,5 @@
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
@@ -9,10 +10,11 @@ public class DriverUtil {
 
     private DriverUtil(){}
 
-    public static synchronized FirefoxDriver getInstance(){
+    public static synchronized ChromeDriver getInstance(){
         if(driver == null){
-            driver = new FirefoxDriver();
+            System.setProperty("webdriver.chrome.driver", "C:/Users/Alisa_Demennikova/IdeaProjects/Reminding/java8Module/src/main/resources/chromedriver.exe");
+            driver = new ChromeDriver();
         }
-        return (FirefoxDriver) driver;
+        return (ChromeDriver) driver;
     }
 }
