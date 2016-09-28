@@ -11,8 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/innerClassesModule/innerClassesModule.iml" filepath="$PROJECT_DIR$/innerClassesModule/innerClassesModule.iml" />
       <module fileurl="file://$PROJECT_DIR$/java8Module/java8Module.iml" filepath="$PROJECT_DIR$/java8Module/java8Module.iml" />
       <module fileurl="file://$PROJECT_DIR$/overrideModule/overrideModule.iml" filepath="$PROJECT_DIR$/overrideModule/overrideModule.iml" />
-      <module fileurl="file://$PROJECT_DIR$/patternsModule/patternsModule.iml" filepath="$PROJECT_DIR$/patternsModule/patternsModule.iml" />
-      <module fileurl="file://$PROJECT_DIR$/serenityModule/serenityModule.iml" filepath="$PROJECT_DIR$/serenityModule/serenityModule.iml" />
     </modules>
   </component>
 </project>
